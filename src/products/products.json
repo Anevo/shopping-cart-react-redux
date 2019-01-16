@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Android Tablet",
+    "price": 199.99
+  },
+  {
+    "id": 2,
+    "name": "Apple Tablet",
+    "price": 299.99
+  },
+  {
+    "id": 3,
+    "name": "Android Smartphone",
+    "price": 229.99
+  },
+  {
+    "id": 4,
+    "name": "Apple Smartphone",
+    "price": 259.99
+  },
+  {
+    "id": 5,
+    "name": "Apple PC",
+    "price": 1999.99
+  }
+]
