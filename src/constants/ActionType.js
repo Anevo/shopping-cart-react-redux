@@ -1,1 +1,2 @@
 export const PRODUCT_COUNT = 'PRODUCT_COUNT'
+export const REMOVE_FROM_CART = 'REMOVE_FROM_CART'

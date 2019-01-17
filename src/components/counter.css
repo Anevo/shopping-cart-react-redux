@@ -1,6 +1,6 @@
-.counter-buttons {
-    display: flex;
+.increment-product {
+    margin-left: 10px;
 }
-
-.increment-product, .decrement-product {
+.decrement-product {
+    margin-right: 10px;
 }

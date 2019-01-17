@@ -2,26 +2,31 @@
   {
     "id": 1,
     "name": "Android Tablet",
-    "price": 199.99
+    "price": 199.99,
+    "image": "https://tr1.cbsistatic.com/hub/i/2013/07/15/59860419-0c72-4002-a77b-a1592827600a/perfect_android_tablet1.jpg"
   },
   {
     "id": 2,
     "name": "Apple Tablet",
-    "price": 299.99
+    "price": 299.99,
+    "image": "https://assets.pcmag.com/media/images/417703-ipad-pro-9-7-main.jpg?width=740&height=417"
   },
   {
     "id": 3,
     "name": "Android Smartphone",
-    "price": 229.99
+    "price": 229.99,
+    "image": "https://www.lifewire.com/thmb/X31wWTBdQ4F_4H1CoiHzBsvWlgQ=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/shutterstock_660311383-5a0a16bd13f12900377c54f7.jpg"
   },
   {
     "id": 4,
     "name": "Apple Smartphone",
-    "price": 259.99
+    "price": 259.99,
+    "image": "https://assets.pcmag.com/media/images/519395-iphone-xs-max.jpg?width=810&height=456"
   },
   {
     "id": 5,
     "name": "Apple PC",
-    "price": 1999.99
+    "price": 1999.99,
+    "image": "https://images-na.ssl-images-amazon.com/images/I/81mEFbytAML._SX425_.jpg"
   }
 ]

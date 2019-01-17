@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import {Provider} from "react-redux";
 import {createStore} from "redux";
 import reducer from './reducers';
+import '@blueprintjs/core/lib/css/blueprint.css';
 
 const store = createStore(
     reducer,

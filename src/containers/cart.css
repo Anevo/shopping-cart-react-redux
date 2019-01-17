@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cart-total {
+    margin: 20px 20px 0 0;
+    font-size: 25px;
+}
+.product-names{
+    flex-direction: column;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-break {
+    background: linear-gradient(180deg, #000 1px, rgba(0,0,0,0) 1px, rgba(0,0,0,0) 100%);
+    background-size: 100% 1.3em;
+}
+
+
+.card-cart {
+    align-self: center;
+    width: 300px;
+}
+
+hr {
+    width: 260px;
+}
