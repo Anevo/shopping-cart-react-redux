@@ -24,32 +24,3 @@ function mapStateToProps(state, ownProps) {
 const mapDispatchToProps = {productCount};
 
 export default connect(mapStateToProps, mapDispatchToProps)(DeleteItemFromCart);
-
-// class Decrement extends Component {
-//
-//     handleRemoveFromCartClick = (product) => {
-//         this.props.removeItemFromCart(product);
-//     };
-//
-//     render() {
-//         return (
-//             <DeleteItem
-//                 handleRemoveFromCartClick={this.handleRemoveFromCartClick}
-//             />
-//         )
-//     }
-// }
-//
-// function mapStateToProps(state) {
-//     return {
-//         products: state.products
-//     }
-// }
-//
-// function mapDispatchToProps(dispatch) {
-//     return bindActionCreators({
-//         removeItemFromCart: removeItemFromCart
-//     }, dispatch)
-// }
-//
-// export default connect(mapStateToProps ,mapDispatchToProps)(Decrement);

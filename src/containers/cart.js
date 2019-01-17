@@ -19,9 +19,13 @@ function Cart(props) {
         if (!countProductInCart) {
             return null;
         }
-        return <div key={productId}>
+        return <div className="cart-details" key={productId}>
+            <div className="cart-product-detail">
             {product.name} x {countProductInCart}
-            <DeleteItemFromCart product={product}/>
+            </div>
+            <div className="cart-delete-button">
+                <DeleteItemFromCart product={product}/>
+            </div>
         </div>;
     });
 
@@ -40,7 +44,7 @@ function Cart(props) {
                         <hr/>
                     </div>
                     <div className="product-names">
-                        <div>In Cart</div>
+                        <div><b>In Cart</b></div>
                         <div>{productsInCart}</div>
                     </div>
                 </div>

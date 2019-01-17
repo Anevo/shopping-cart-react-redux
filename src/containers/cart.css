@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-top: -820px;
+    margin-right: 50px;
 }
 
 .cart-total {
@@ -23,7 +25,20 @@
 
 .card-cart {
     align-self: center;
-    width: 300px;
+    width: 350px;
+}
+
+.cart-details {
+}
+
+.cart-delete-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+}
+
+.cart-product-detail {
+    margin-top: 20px;
 }
 
 hr {
